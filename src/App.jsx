@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className="sections">
-      
+
       <Page1/>
       <Page2/>
       <Page3/>
