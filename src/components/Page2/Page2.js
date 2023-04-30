@@ -2,7 +2,7 @@ import React from 'react'
 import "./Page2.css"
 
 
-import Untitled from "../Page2/Untitled.mov"
+import Untitled from "../Page2/Untitled.mp4"
 
 export default function Page2() {
   return (
