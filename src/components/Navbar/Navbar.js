@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import "./NavBarStyle.css"
 import {HiOutlineMenuAlt4} from 'react-icons/hi'
-
+import {FaBars} from 'react-icons/fa'
 export default function Navbar() {
     const[click,setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -11,11 +11,8 @@ export default function Navbar() {
             <h2>Speeds</h2>
         </div>
 
-    <ul className={click?'nav-menu active' : 'nav-menu'}>
-        <li>
-            Ride
-
-        </li>
+    <ul className={click? 'nav-menu active' : 'nav-menu'}>
+        <li>Ride</li>
         <li>Location</li>
         <li>Partners</li>
   
@@ -31,9 +28,16 @@ export default function Navbar() {
     </ul>
     </ul>
     <div className="hamburger" onClick={handleClick}> 
-    {click ? (<HiOutlineMenuAlt4 className='icon' size={20} style = {{}}/>) : (<HiOutlineMenuAlt4 className='icon' size={20} style = {{}}/>) }
+    {click ? (<HiOutlineMenuAlt4 className='icon' size={40} style = {{color: '#fff'}}/>) : (<FaBars className='icon' size={30} style = {{color: '#fff'}}/>) }
     </div>
-    </div>
+
+
+
+
+
+</div>
+
+ 
     
       
     

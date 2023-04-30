@@ -62,3 +62,10 @@
     cursor: pointer;
  
 }
+
+@media screen and (max-width: 740px){
+
+.text-1{
+    display: none;
+}
+}
