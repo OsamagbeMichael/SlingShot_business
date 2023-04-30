@@ -1,6 +1,5 @@
-#View this project live on https://slingshotrental.netlify.app/
-
-#Optimized for mobile and desktop
+# View this project live on https://slingshotrental.netlify.app/
+*optimized for mobile and desktop*
 
 
 
