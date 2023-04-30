@@ -78,36 +78,3 @@ top: 0;
 .oregon{
     display: flex;
 }
-@media screen and (max-width:1240px) {
-    .hamburger{
-        display:block ;
-    }
-
-
-    .nav-menu{
-        position:absolute;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        top: 0;
-        left: 0;
-        text-align: center;
-        width: 100%;
-        height: 100vh;
-        transition: 0.3s;
-        z-index: -1;
-        /* background: rgba(255,255,255,.9); */
-
-    }
-.nav-menu.active{
-    left:0;
-}
-    .nav-menu li{
-        padding: 1rem 0;
-    }
-
-    .nav-menu a{
-        font-size: 2rem;
-    }
-    
-}
