@@ -1,0 +1,208 @@
+.page4{
+    background-image: url(map.jpg);
+    background-size: cover;  
+    background-position: center;
+    position: relative;
+    
+
+
+
+}
+
+.button-class{
+    position:absolute;
+    bottom: 20px; 
+    left: 20px;
+
+    
+}
+
+
+.button-classes{
+
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 20px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    border-radius: 4px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+}
+
+.pin{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+
+.pin1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin1::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+.pin2{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin2:after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+.pin3{
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin3::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+.pin4{
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin4::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+.pin5{
+    position: absolute;
+    top: 15%;
+    left: 55%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin5::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+.pin6{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    background-color:  red;
+    height: 40px;
+    width:40px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.pin6::after{
+    content: '';
+    position: absolute;
+    top: 0; 
+    left:0;
+    height: 100%;
+    width:100%;
+    background-color: red;
+    border-radius:  50%;
+    animation: puls-effect 1s ease-in-out infinite;
+}
+
+@keyframes puls-effect{
+    0%{
+        transform: scale(.5);
+        opacity: 1;
+    }
+
+    100%{
+        transform: scale(4);
+        opacity: 0;
+    }
+}
