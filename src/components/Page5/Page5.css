@@ -1,0 +1,21 @@
+
+.header{
+    font-size: 80px;
+
+
+}
+
+
+    .Page5 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+.image-2 {
+    width: 50%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  

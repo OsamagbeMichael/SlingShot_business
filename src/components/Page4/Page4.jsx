@@ -12,7 +12,7 @@ export default function Page4() {
        <div class= "pin5"></div>
        <div class= "pin6"></div>
       <div className='button-class'>
-
+      <div className='text-block'> OUR LOCATIONS</div> <br></br>
         <button class="button-classes"> Check Us Out</button>
       </div>
 
