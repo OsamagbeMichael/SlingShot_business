@@ -2,7 +2,6 @@
 .header{
     font-size: 80px;
 
-
 }
 
 
@@ -13,9 +12,9 @@
       }
 
 .image-2 {
-    width: 50%;
-    height: 50%;
-    background-size: contain;
+    width: 20%;
+    height: 20%;
+    background-size: auto;
     background-repeat: no-repeat;
   }
   

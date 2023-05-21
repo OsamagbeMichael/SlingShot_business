@@ -215,3 +215,49 @@
     left: 0;
     font-weight: 900;
 }
+
+
+    
+@media screen and (max-width: 740px){
+
+    .page4{
+        background-size: cover;
+    }
+   .text-block{
+    font-size: 30px;
+   }
+
+   .button-classes{
+    padding: 20px 20px;
+
+   }
+   .pin{
+    height: 40px;
+    width:40px;
+   }
+
+   .pin1{
+    
+   }
+
+
+   .pin2{
+    
+   }
+
+   .pin3{
+    
+   }
+
+   .pin4{
+    
+   }
+
+   .pin5{
+    
+   }
+
+   .pin6{
+    
+   }
+    }

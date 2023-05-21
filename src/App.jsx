@@ -5,7 +5,7 @@ import Page2 from "./components/Page2/Page2";
 import Page3 from "./components/Page3/Page3";
 import Page4 from "./components/Page4/Page4";
 import Page5 from "./components/Page5/Page5";
-import Footers from "./components/Footers/Footers";
+import Footer from "./components/Footer/Footer.jsx";
 
 
 
@@ -16,10 +16,13 @@ function App() {
 
       <Page1/>
       <Page2/>
+     
       <Page3/>
+     
       <Page4/>
+      
       <Page5/>
-      <Footers/>
+      <Footer/>
     
       </div>
     </div>
