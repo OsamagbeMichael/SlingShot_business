@@ -19,7 +19,7 @@ export default function Navbar() {
             <h2>Speeds</h2>
         </div>
 
-    <ul className={click? 'nav-menu active' : 'nav-menu'}>
+    <ul className={click? 'nav-menu active' : 'nav-menu'}  onClick={handleClick}>
 
         <li>Ride</li>
         <li>Location</li>
