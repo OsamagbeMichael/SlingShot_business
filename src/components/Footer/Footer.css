@@ -50,6 +50,14 @@ p{
     text-decoration: none;
   }
   
+
+
+  .footer ul li a span{
+    color: black;
+    text-decoration: none;
+  }
+
+
   .footer-bottom {
     text-align: center;
 

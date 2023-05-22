@@ -8,27 +8,26 @@ const Footer = () => {
   return (
     
     <footer className="footer">
-        
         <div className="logo-container">
                  <h4>Speeds</h4>
        </div>
        <div className="social-media-icons">
-            <a href="#"><i className="fab fa-facebook-f"></i></a>
-             <a href="#"><i className="fab fa-instagram"></i></a>
-            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="/"><i className="fab fa-facebook-f" aria-label="Facebook"></i></a>
+             <a href="/"><i className="fab fa-instagram"aria-label="Instagram"></i></a>
+            <a href="/"><i className="fab fa-twitter" aria-label="Twitter"></i></a>
      </div>
-   
+     
       
     
         <div className="Footer-box">
             <div className="footer-section">
                 <h3> Rider</h3>
                 <ul>        
-                    <li><a href = "#">How  To <div className="speeds"><span>Speeds</span></div></a> </li> 
-                    <li><a href = "#"></a>Safety </li> 
-                    <li><a href = "#"></a> Sustainablity</li> 
-                    <li><a href = "#"></a> Map</li> 
-                    <li><a href = "#"></a> Insurance</li>
+                    <li> <div className="speeds"><span>Speeds</span></div></li> 
+                    <li>Safety </li> 
+                    <li>Sustainablity</li> 
+                    <li>Map</li> 
+                    <li>Insurance</li>
                 </ul>
             </div>
      
@@ -37,9 +36,9 @@ const Footer = () => {
             <div className="footer-section">
                 <h3> Vehicles </h3>
                 <ul>        
-                    <li><a href = "#"><div className="speeds">Speeds</div><span>Three</span></a> </li> 
-                    <li><a href = "#"></a><div className="speeds">Speeds</div><span>BikeShare </span></li> 
-                    <li><a href = "#"></a> <div className="speeds">Speeds</div><span>Bike</span></li> 
+                    <li><div className="speeds">Speeds</div><span>Three</span></li> 
+                    <li><div className="speeds">Speeds</div><span>BikeShare </span></li> 
+                    <li> <div className="speeds">Speeds</div><span>Bike</span></li> 
                    
                 </ul>
             </div>
@@ -47,10 +46,10 @@ const Footer = () => {
             <div className="footer-section">
                 <h3> Partner</h3>
                 <ul>        
-                    <li><a href = "#">Cities</a> </li> 
-                    <li><a href = "#"></a>Investor </li> 
-                    <li><a href = "#"></a> Fleet Manager</li> 
-                    <li><a href = "#"></a>Platform</li> 
+                    <li>Cities </li> 
+                    <li>Investor </li> 
+                    <li> Fleet Manager</li> 
+                    <li>Platform</li> 
                     
                 </ul>
             </div>
@@ -59,10 +58,10 @@ const Footer = () => {
             <div className="footer-section">
                 <h3> Company</h3>
                 <ul>        
-                    <li><a href = "#">About</a> </li> 
-                    <li><a href = "#"></a>Careers </li> 
-                    <li><a href = "#"></a> Contact Us</li> 
-                    <li><a href = "#"></a> Press</li> 
+                    <li>About </li> 
+                    <li>Careers </li> 
+                    <li> Contact Us</li> 
+                    <li> Press</li> 
                   
                 </ul>
             </div>
