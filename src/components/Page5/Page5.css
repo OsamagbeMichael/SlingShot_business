@@ -1,15 +1,20 @@
 
+.Page5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
 .header{
     font-size: 80px;
 
 }
 
 
-    .Page5 {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-      }
 
 .image-2 {
     width: 20%;
@@ -18,3 +23,22 @@
     background-repeat: no-repeat;
   }
   
+
+      
+  @media screen and (max-width: 740px){
+
+
+.header{
+    font-size: 40px;
+
+}
+
+.image-2 {
+    width: 20px;
+    height: 20px;
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  
+    
+    }

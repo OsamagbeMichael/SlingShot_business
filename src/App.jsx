@@ -9,6 +9,7 @@ import Footer from "./components/Footer/Footer.jsx";
 
 
 
+
 function App() {
   return (
     <div className="App">
@@ -20,9 +21,10 @@ function App() {
       <Page3/>
      
       <Page4/>
-      
+
       <Page5/>
       <Footer/>
+ 
     
       </div>
     </div>

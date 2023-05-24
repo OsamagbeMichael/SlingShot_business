@@ -5,9 +5,9 @@ export default function Page5() {
   return (
     
     <div className='Page5'>
-      <br></br>
+ 
      <h3 className='header'>Take a Ride With Us</h3>
-     <br></br>
+     
       <div className='image-1'>
       <img src='https://www.click2cell.com/wp-content/uploads/2018/04/Apple-store-Google-Play.png' alt='appstore.jpeg'  /> 
       
