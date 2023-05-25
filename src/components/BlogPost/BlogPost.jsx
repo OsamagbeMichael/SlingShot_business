@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./BlogPost.css";
-import {Blogs} from "/Users/uhunmwaghoosamagbemichael/slingshot/src/data.js";
+import  {Blogs} from "./data.js";
 
 
 const BlogPost = () =>{
@@ -54,7 +54,7 @@ const closeModal=()=>{
     <div className='modal'> 
         <div className='modal-content'>
             <span className='close' onClick={closeModal}>&times;</span>
-            <h3>{selectedBlog.title}</h3><br></br>
+            <h3 className='selected-title'>{selectedBlog.title}</h3><br></br>
             <h4>{selectedBlog.content}</h4>
         
         </div> 
