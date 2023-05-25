@@ -11,9 +11,10 @@
 
 .button-class{
     position:absolute;
-    bottom: 0; 
+    bottom: 90px; 
     left: 0;
     text-align: left;
+ 
 
     
 }

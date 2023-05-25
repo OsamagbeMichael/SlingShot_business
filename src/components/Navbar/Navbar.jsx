@@ -6,6 +6,7 @@ import {FaBars} from 'react-icons/fa'
 
 
 
+
 export default function Navbar() {
     const[click,setClick] = useState(false)
     const handleClick = () => setClick(!click)
@@ -14,7 +15,7 @@ export default function Navbar() {
 
     
   return (
-    <div className= 'navbar'>
+    <div className= 'navbar'>  
         <div className="logo">
             <h2>Speeds</h2>
         </div>
@@ -28,7 +29,9 @@ export default function Navbar() {
 
     <ul className='oregon'>
     <li>
-      <button class="button-1"> Blog </button>  
+        <button class="button-1">Blog</button>        
+            {/* <Link to="/blogpost" className="button-1">Blog</Link>   */}
+
     </li>
     <li>
         <button class = "button-2">  Rent Now</button>  
