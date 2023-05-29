@@ -55,7 +55,7 @@ const closeModal=()=>{
         <div className='modal-content'>
             <span className='close' onClick={closeModal}>&times;</span>
             <h3 className='selected-title'>{selectedBlog.title}</h3>
-            <h4>{selectedBlog.content}</h4>
+            <h4 className='selected-title-one'>{selectedBlog.content}</h4>
         
         </div> 
     </div>
